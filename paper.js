@@ -5,7 +5,7 @@ class Paper{
 			isStatic:false,
 			restitution:0.3,
 			friction:0.5,
-			density:1.2
+			density:1
 
 			
 			}
@@ -25,7 +25,7 @@ class Paper{
 			translate(paperpos.x, paperpos.y);
 			rectMode(CENTER)
 			//strokeWeight(4);
-			fill(255)
+			fill(100,100,100)
 			ellipse(0,0,this.r, this.r);
 			pop()
 			
