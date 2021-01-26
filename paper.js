@@ -3,7 +3,7 @@ class Paper{
 	{
 		var options={
 			isStatic:false,
-			restitution:0.3,
+			restitution:0.2,
 			friction:0.7,
 			density:1.5
 
